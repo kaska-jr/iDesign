@@ -322,6 +322,41 @@ nav .nav-item .nav-link.active{
 .okl{
     justify-self: flex-end;
 }
+.team-ti{
+    font-size: 0.7rem;
+}
+.team-na{
+    font-size: 1rem;
+}
+
+.car-p{
+    margin: 0;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.car-h{
+}
+.car-btn{
+    padding: 0.2rem  0.5rem;
+    font-size: 0.8rem;
+}
+.cta{
+    font-size: 0.8rem;
+}
+@media screen and (min-width:850px) {
+    .car-p{
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.car-h{
+    font-size: 3rem;
+}
+.car-btn{
+    padding: 1rem;
+    font-size: 1rem;
+}
+}
 @media screen and (max-width:989px) {
     .pagesHeader{
     flex-direction: column;
