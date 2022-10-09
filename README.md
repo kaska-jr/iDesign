@@ -1,2 +1,2 @@
 # iDesign
-A Front-end website template of an interior Design company (Tool: HTML5, CSS5, Bootstrap5)
+A Frontend Website template for an interior design Company (Tools: HTML5, CSS3 &amp; Bootstrap5)

@@ -1,0 +1,334 @@
+.logo-font {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+.light-wt{
+    font-weight: 300;
+}
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-sec{
+    background-color: #252531;
+}.text-sec{
+    color: #252531;
+}
+
+.bg-pri {
+    background-color: #DFB163;
+}.text-pri {
+    color: #DFB163;
+}
+
+.bg-dar {
+    background-color: #181818;
+}.text-dar {
+    color:#181818;
+}
+
+.bg-lig {
+    background-color: #F3F6FF;
+}.text-lig {
+    color: #F3F6FF;
+}
+
+nav .nav-item .nav-link.active{
+    color: #DFB163;
+}
+
+.nav-link {
+    color: #F3F6FF;
+}
+
+.nav-link:hover{
+    color: #DFB163;
+}
+
+
+.nav-bar::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width:100%;
+    background-color: #181818;
+    z-index: -111;
+}
+
+.nav-bar::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    background-color: #fff;
+    z-index: -111;
+}
+.psu{
+    padding-left: 60px;
+    position: relative;
+}
+
+.psu::before{
+    position: absolute;
+    content: "";
+    width: 45px;
+    top: 10px;
+    left: 0;
+    height: 3px;
+    background-color: #DFB163;
+}
+
+.Hcarousel .carousel-control-next-icon{
+    background-color: #DFB163;
+    padding: 10px;
+}
+.Hcarousel .carousel-control-prev-icon{
+    background-color: #DFB163;
+    padding: 10px;
+}
+
+.Hcarousel-caption{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5));
+}
+
+.fs{
+    font-size: 0.9rem;
+}
+
+.bor{
+    border: 1px solid #DFB163;
+}
+
+.ali {
+    border: 1px solid #DFB163;
+    color: #DFB163;
+    cursor: pointer;
+}
+.ali:hover{
+    background-color: #DFB163;
+    color: #000;
+}
+
+.T-icon{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.team-car-icon{
+    position: absolute;
+    background-color: #DFB163;
+    padding: 15px;
+    opacity: 0.2;
+    transform: translateY(-50%);
+    transition: 0.5s ease-in-out;
+}
+
+.team-carousel:hover  .team-car-icon{
+    opacity: 1;
+}
+
+.team-car-icon-l{
+    left: 20px;
+    top: 50%;
+}
+
+.team-car-icon-r{
+    right: 20px;
+    top: 50%;
+}
+
+
+
+.bg-reveal{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: -100%;
+    transition: 0.5s;
+    background-color: #252531;
+}
+
+.mai:hover .bg-reveal{
+    bottom: 0;
+}
+
+.f-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-icon:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.brl{
+    border: none;
+}
+.formj:focus{
+    border: 2px solid #DFB163;
+    box-shadow: none;
+}
+.jk{
+    border-top: 0.5px solid #555;
+}
+.foy{
+    font-weight: bold;
+}
+.kj{
+    text-decoration: none;
+}
+.kj:hover{
+    text-decoration: underline;
+}
+
+.bot{
+    border: 2px solid #F3F6FF;
+}
+
+.bot:focus{
+    box-shadow: none;
+}
+
+.bot1{
+    color: #F3F6FF;
+}
+
+.awesomeServ{
+    font-size: 4rem;
+}
+
+.test-car-icon{
+    color: #DFB163;
+    padding: 10px;
+    border: 1.5px solid #DFB163;
+    transition: .5s;
+}
+
+.test-car-icon:hover{
+    color: #000;
+    background-color: #DFB163;
+}
+
+.aweCarIconR{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    background-color: #DFB163;
+    padding: 15px;
+    opacity: 0.2;
+    transform: translateY(-50%);
+    transition: 0.5s ease-in-out;
+}
+.aweCarIconL{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    background-color: #DFB163;
+    padding: 15px;
+    transform: translateY(-50%);
+    opacity: 0.2;
+    transition: 0.5s ease-in-out;
+}
+.service-carousel:hover .aweCarIconR{
+    opacity: 1;
+}
+
+.service-carousel:hover .aweCarIconL{
+    opacity: 1;
+}
+
+.test-img1{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: url(./img/testimonial-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.test-img2{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: url(./img/testimonial-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.test-img3{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: url(./img/team-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.anchor-tag-buttons{
+    color:#000;
+}
+.anchor-tag-buttons:hover{
+    color: #000;
+}
+.anchor-tag-buttons:focus{
+    color: #000;
+}
+
+.header-img-cover{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header-img-cover{
+    opacity: 0;
+    transition: 0.8s;
+}
+.team-member:hover .header-img-cover{
+    opacity: initial;
+}
+
+.contH{
+    height: 300px;
+}
+
+.pagesHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-dir{
+    border: 1px solid #DFB163;
+}
+
+.okl{
+    justify-self: flex-end;
+}
+@media screen and (max-width:989px) {
+    .pagesHeader{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contH{
+    height: 200px;
+}
+}
